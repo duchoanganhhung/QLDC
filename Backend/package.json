@@ -1,0 +1,21 @@
+{
+  "name": "citizen-backend",
+  "version": "1.0.0",
+  "description": "Backend for Police Command Station (DINHVIETTUNG)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "hash": "node scripts/make_bcrypt_hash.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mssql": "^10.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
